@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu Principal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btnBoleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Boletos"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnReservas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reservas"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnAutorizacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Autorizar Visitante"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnComunicados"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comunicados"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnPrestacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prestação de Contas"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnMudanca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solicitar Mudança"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnContatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contatos"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
